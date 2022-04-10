@@ -1,0 +1,71 @@
+/* Global */
+@media all and (min-width: 768px) and (max-width: 1024px){
+  body{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+      nav main main;
+      nav main main;
+      footer footer footer;
+    ;
+  }
+  #navbar{
+    height: 100%;
+    background: #0000000f;
+    padding: 10px;
+  }
+  #navbar a{
+    border-top: 1px solid;
+    padding: 10px;
+  }
+  main{
+    height: 110em;
+    overflow: scroll;
+  }
+}
+
+/* Navigation */
+nav{
+  height: 50px;
+  overflow: scroll;
+}
+a{
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover{
+  color: red;
+}
+/* Navigation */
+marquee{
+  direction: right;
+}
+/* Main */
+section{
+  margin: 0 30px;
+  margin-top: 20px;
+}
+section header{
+  font-size: 20px;
+  text-decoration: strong;
+}
+section p{
+  text-indent: 10px;
+}
+p code{
+  background: #0000002f;
+}
+.disp{
+  background: #0000002f;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+/* Main */
+
+/* Foot */
+.MDN{
+  display: inline;
+  margin: auto;
+}
