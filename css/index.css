@@ -1,5 +1,5 @@
 /* Global */
-@media all and (min-width: 850px) and (max-width: 1024px){
+@media (min-width: 850px){
   body{
     display: grid;
     grid-template-columns: auto auto;
